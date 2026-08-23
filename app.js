@@ -34,6 +34,16 @@ const portfolioData = {
   projects: [
 
 {
+  title: "KhetSathi AI — Digital Agriculture Companion",
+  description: "A full-stack AI-powered platform for farmers with crop advisory, real-time weather info, market data, alerts, an agricultural calendar, and a farmer journal — built with Groq AI, Supabase, and Google OAuth authentication.",
+  tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase", "Groq AI"],
+  github: "https://github.com/bpvankar496-ux/Hackathon",
+  live: "https://hackathon-1-reo5.onrender.com",
+  featured: true
+},
+
+
+{
   title: "WanderLust — Airbnb Clone",
   description: "A full-stack Airbnb-inspired rental listing platform where users can browse, create, and review property listings, with Passport.js authentication, Cloudinary image uploads, Mapbox-powered maps, and offline-first PWA support using Service Workers and IndexedDB.",
   tech: ["Node.js", "Express", "MongoDB", "EJS", "Passport.js", "Cloudinary", "Mapbox"],
