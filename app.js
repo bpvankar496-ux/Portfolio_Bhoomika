@@ -33,6 +33,17 @@ const portfolioData = {
   ],
   projects: [
 
+
+{
+  title: "MediCare — Smart Healthcare Management Platform",
+  description: "A full-stack healthcare platform for patients, doctors, and reception staff with Blockchain ,appointment booking, doctor and patient dashboards, medical records, medicine management, real-time video consultation, notifications, and secure role-based authentication — built with React, TypeScript, Node.js, MongoDB, and modern web technologies.",
+  tech: ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+  github: "https://github.com/bpvankar496-ux/MediCare-.git",
+  live: "https://medicare-f0fu.onrender.com",
+  featured: true
+},
+
+
 {
   title: "KhetSathi AI — Digital Agriculture Companion",
   description: "A full-stack AI-powered platform for farmers with crop advisory, real-time weather info, market data, alerts, an agricultural calendar, and a farmer journal — built with Groq AI, Supabase, and Google OAuth authentication.",
