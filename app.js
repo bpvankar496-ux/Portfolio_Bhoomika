@@ -26,19 +26,27 @@ const portfolioData = {
   github: "https://github.com/bpvankar496-ux",
   linkedin: "https://www.linkedin.com/in/bhoomika-vankar-2106a931b",
   skills: [
-    { category: "Frontend", items: ["HTML", "CSS", "JavaScript", "EJS","React","Taliwind"] },
+    { category: "Frontend", items: ["HTML", "CSS", "JavaScript", "EJS","React","Taliwind","Typescript"] },
     { category: "Backend", items: ["Node.js", "Express.js"] },
-    { category: "Database", items: ["MongoDB", "Mongoose"] },
+    { category: "Database", items: ["MongoDB", "Mongoose","Supabase"] },
     { category: "Tools", items: ["Git", "GitHub", "VS Code", "Render"] }
   ],
   projects: [
 
+    {
+  title: "Virasat — Digital Heritage Preservation & Research Platform",
+  description: "A full-stack heritage platform that makes Gujarat's historical documents searchable using OCR and AI. Features an archive search, AI research assistant, interactive map, 3D tour and English, Gujarati and Hindi support.",
+  tech: ["React", "TypeScript", "Supabase", "PostgreSQL", "Gemini AI", "Three.js", "Leaflet", "Tailwind CSS"],
+  github: "https://github.com/bpvankar496-ux/HackIITG",
+  live: "https://hackiitg.onrender.com",
+  featured: true
+},
 
 {
   title: "MediCare — Smart Healthcare Management Platform",
   description: "A full-stack healthcare platform for patients, doctors, and reception staff with Blockchain ,appointment booking, doctor and patient dashboards, medical records, medicine management, real-time video consultation, notifications, and secure role-based authentication — built with React, TypeScript, Node.js, MongoDB, and modern web technologies.",
   tech: ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-  github: "https://github.com/bpvankar496-ux/MediCare-.git",
+  github: "https://github.com/bpvankar496-ux/MediCare-",
   live: "https://medicare-f0fu.onrender.com",
   featured: true
 },
